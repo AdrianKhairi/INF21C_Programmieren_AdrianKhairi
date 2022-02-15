@@ -54,7 +54,7 @@ void eulerSettings_MSD(simHandle* handle){
         {
             break;
         }
-        printf("ERROR: ERROR: invalid input for stepsize, stepsize must not be negative or zero\n");
+        printf("ERROR: invalid input for stepsize, stepsize must not be negative or zero\n");
     } while (handle->stepSize<=0);
     
 
